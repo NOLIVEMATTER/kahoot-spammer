@@ -18,7 +18,6 @@ def connecttokahoot():
     objectnm = webdriver.Chrome()
     objectnm.get("https://kahoot.it")
     objectnm.set_window_size(200, 200)
-    #making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     objectnm.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     objectnm.find_element_by_css_selector('.btn-greyscale').click()
@@ -86,7 +85,6 @@ def flood(combonumber, botname):
         basename = 'bot'
         for i in range(1, 25):
             basename + str(i)
-            # making sure the browser loads lol hey future me u dumb fuck
             time.sleep(1)
             confirmed.find_element_by_css_selector('#inputSession').send_keys(gamepin)
             confirmed.find_element_by_css_selector('.btn-greyscale').click()
@@ -112,7 +110,6 @@ def combo1execution():
     print combo1proc.title
     combo1proc.set_window_size(500, 500)
     combo1proc.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     combo1proc.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -147,7 +144,6 @@ def combo2execution():
     print combo2proc.title
     combo2proc.set_window_size(500, 500)
     combo2proc.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     combo2proc.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -184,7 +180,6 @@ def combo3execution():
     print combo3proc.title
     combo3proc.set_window_size(500, 500)
     combo3proc.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     combo3proc.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -220,7 +215,6 @@ def combo4execution():
     print combo4proc.title
     combo4proc.set_window_size(500, 500)
     combo4proc.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     combo4proc.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -258,7 +252,6 @@ def combo5execution():
     print combo5proc.title
     combo5proc.set_window_size(500, 500)
     combo5proc.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     combo5proc.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -295,7 +288,6 @@ def combo6execution():
         print execution.title
         execution.set_window_size(200, 200)
         execution.get("https://kahoot.it")
-        # making sure the browser loads lol hey future me u dumb fuck
         time.sleep(1)
         execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
         time.sleep(1.5)
@@ -329,7 +321,6 @@ def combo7execution():
     print combo7proc.title
     combo7proc.set_window_size(500, 500)
     combo7proc.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     combo7proc.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -359,7 +350,6 @@ def combo8execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -404,7 +394,6 @@ def combo9execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -441,7 +430,6 @@ def combo10execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -478,7 +466,6 @@ def combo11execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -515,7 +502,6 @@ def combo12execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -551,7 +537,6 @@ def combo13execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -587,7 +572,6 @@ def combo14execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -623,7 +607,6 @@ def combo15execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -659,7 +642,6 @@ def combo16execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -696,7 +678,6 @@ def combo17execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -732,7 +713,6 @@ def combo18execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -768,7 +748,6 @@ def combo19execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -804,7 +783,6 @@ def combo20execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -841,7 +819,6 @@ def combo21execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -876,7 +853,6 @@ def combo22execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -912,7 +888,6 @@ def combo23execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
@@ -948,7 +923,6 @@ def combo24execution():
     print execution.title
     execution.set_window_size(500, 500)
     execution.get("https://kahoot.it")
-    # making sure the browser loads lol hey future me u dumb fuck
     time.sleep(1)
     execution.find_element_by_css_selector('#inputSession').send_keys(gamepin)
     time.sleep(5)
